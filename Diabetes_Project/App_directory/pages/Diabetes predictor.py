@@ -61,8 +61,8 @@ form.form_submit_button('Submit details')
 
 
 # Load the trained model and scaler
-model = joblib.load("C:/Users/USER/Downloads/Diabetes_Project/model.pkl")  # Replace with your model filename
-scaler = joblib.load("C:/Users/USER/Downloads/Diabetes_Project/new_scaler.pkl")  # Replace with your scaler filename
+model = joblib.load("Diabetes_Project/model.pkl")  # Replace with your model filename
+scaler = joblib.load("Diabetes_Project/new_scaler.pkl")  # Replace with your scaler filename
 
 # Data Frame for user input
 user_data = pd.DataFrame({
